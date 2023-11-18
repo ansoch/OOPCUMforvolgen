@@ -30,16 +30,20 @@
         {
             SuspendLayout();
             // 
-            // Form1
+            // CosmoSimForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(810, 459);
-            Name = "Form1";
+            ClientSize = new Size(1800, 1200);
+            Menu = new System.Windows.Forms.Form();
+            Name = "CosmoSimForm";
             Text = "Form1";
-            Load += Form1_Load;
+            Load += CosmoSimForm_Load;
             ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Form Menu;
+        
 
         #endregion
     }
